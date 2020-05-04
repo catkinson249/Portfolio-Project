@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contact</title>
+</head>
+
+<body style="background: url(images/doily_bckgrd.jpg)" class="page-holder">
+
+    <!------------------------- NAV --------------------------->
+    <nav class="navbar">
+        <span class="navbar-brand mb-0 h1">
+            <img src="images/nav-logo.png" class="logo" alt="logo" /></span>
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!------------------------- CONTACT FORM --------------------------->
+    <h2>Contact Form</h2>
+    <div class="contact">
+
+        <form action="#" class="needs-validation" method="post">
+            <div class="form-group col-12">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Name" required="">
+                <div class="invalid-feedback">
+                    Please enter you name.
+                </div>
+            </div>
+
+            <div class="form-group col-12">
+                <label for="email">Email</label>
+                <input type="email" id="Email" class="form-control" placeholder="Email" required="">
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+
+            <div class="form-group col-12">
+                <label for="subject">Subject</label>
+                <select name="subject" id="subject" class="custom-select" required="">
+                    <option selected>Choose a Subject</option>
+                    <option value="1">Get Hired</option>
+                    <option value="2">Customer Service</option>
+                    <option value="3">Testimonial/Other</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please choose an option.
+                </div>
+            </div>
+
+            <div class="form-group col-12">
+                <label for="comment">Comments</label>
+                <textarea id="comment" class="form-control" rows="5" placeholder="Why are you contacting us today?"
+                    required=""></textarea>
+                <div class="invalid-feedback">
+                    Explain why you are contacting us.
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block m-2">Submit</button>
+            <button type="reset" class="btn btn-secondary btn-block m-2">Cancel</button>
+        </form>
+
+    </div>
+    <!------------------------- FOOTER --------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3">
+                    <h6><strong>CONTACT US</strong></h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">800 233 3556</a></li>
+                        <li><a href="#">thegrandmafactory@email.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h6><strong>SERVICES</strong></h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">Ordering & Payment</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h6><strong>INFORMATION</strong></h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">Get Hired</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <ul class="list-unstyled text-small">
+                        <li><a href="https://www.facebook.com/">facebook</a></li>
+                        <li><a href="https://twitter.com">twitter</a></li>
+                        <li><a href="https://www.instagram.com/?hl=en">instagram</a></li>
+                        <li><a href="https://www.pinterest.com/">pinterest</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <small class="d-block mb-3 text-muted">© 2020theGrandmaFactory</small>
+        </div>
+    </footer>
+    <!------------------------- END --------------------------->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

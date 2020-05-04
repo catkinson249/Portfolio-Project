@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Order</title>
+</head>
+
+<body style="background: url(images/doily_bckgrd.jpg)" class="page-holder">
+
+    <!------------------------- NAV --------------------------->
+    <nav class="navbar">
+        <span class="navbar-brand mb-0 h1">
+            <img src="images/nav-logo.png" class="logo" alt="logo" /></span>
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!------------------------- ORDER FORM --------------------------->
+    <h2>Order Form</h2>
+    <div class="order">
+        <div class="row">
+            <div class="billing">
+                <form action="#" class="needs-validation" method="post">
+                    <h3>Billing Info</h3>
+                    <div class="form-group col-12">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Name" required="">
+                        <div class="invalid-feedback">
+                            Please enter you name.
+                        </div>
+                    </div>
+
+                    <div class="form-group col-12">
+                        <label for="address">Address</label>
+                        <input type="address" id="Address" class="form-control" placeholder="Street Address"
+                            required="">
+                        <div class="invalid-feedback">
+                            Please enter an address.
+                        </div>
+                    </div>
+
+                    <div class="form-group col-12">
+                        <label for="city">City</label>
+                        <input type="text" id="city" class="form-control" placeholder="City" required="">
+                        <div class="invalid-feedback">
+                            Please enter you city.
+                        </div>
+                    </div>
+
+
+                    <div class="form-group col-12">
+                        <label for="zip">Zip Code</label>
+                        <input type="text" id="zip" class="form-control" placeholder="Zip Code" required="">
+                        <div class="invalid-feedback">
+                            Please enter you zip.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block m-2">Submit</button>
+                </form>
+            </div>
+
+            <div class="payment">
+                <form action="#" class="needs-validation" method="post">
+                    <h3>Payment Info</h3>
+                    <div class="form-group col-12">
+                        <label for="account">Account Number</label>
+                        <input type="text" id="account" class="form-control" placeholder="Account Number" required="">
+                        <div class="invalid-feedback">
+                            Please enter you name.
+                        </div>
+                    </div>
+
+                    <div class="form-group col-12">
+                        <label for="account-name">Account Holder's Name</label>
+                        <input type="account-name" id="account-name" class="form-control"
+                            placeholder="Account Holder's Name" required="">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address.
+                        </div>
+                    </div>
+
+
+                    <div class="form-group col-12">
+                        <label for="subject">Payment Type</label>
+                        <select name="payment" id="payment" class="custom-select" required="">
+                            <option selected>Choose Payment</option>
+                            <option value="1">Visa / Mastercard </option>
+                            <option value="2">PayPal Service</option>
+                            <option value="3">Apple Pay</option>
+                            <option value="4">Google Pay</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please choose an option.
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group col-12">
+                        <label for="cvv">City</label>
+                        <input type="text" id="cvv" class="form-control" placeholder="CVV" required="">
+                        <div class="invalid-feedback">
+                            Please enter you cvv.
+                        </div>
+                    </div>
+
+
+                    <div class="form-group col-12">
+                        <label for="exp">Expiration Date</label>
+                        <input type="text" id="exp" class="form-control" placeholder="Expiration" required="">
+                        <div class="invalid-feedback">
+                            Please enter expiration .
+                        </div>
+                    </div>
+
+
+
+
+                    <button type="reset" class="btn btn-secondary btn-block m-2">Cancel</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- FOOTER --------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3">
+                    <h6><strong>CONTACT US</strong></h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">800 233 3556</a></li>
+                        <li><a href="#">thegrandmafactory@email.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h6><strong>SERVICES</strong></h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">Ordering & Payment</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h6><strong>INFORMATION</strong></h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a href="#">Get Hired</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <ul class="list-unstyled text-small">
+                        <li><a href="https://www.facebook.com/">facebook</a></li>
+                        <li><a href="https://twitter.com">twitter</a></li>
+                        <li><a href="https://www.instagram.com/?hl=en">instagram</a></li>
+                        <li><a href="https://www.pinterest.com/">pinterest</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <small class="d-block mb-3 text-muted">© 2020theGrandmaFactory</small>
+        </div>
+    </footer>
+    <!------------------------- END --------------------------->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Roboto:wght@300&display=swap');
+
+
+
+h1, h2, h3, h4{
+ font-family: 'Lobster', cursive;;
+}
+
+ h5, h6{
+     font-family: 'Oswald', sans-serif;
+ }
+
+ p, .p{
+     font-family: 'Roboto', sans-serif;
+}
+q, .q{
+     font-family: 'Oswald', sans-serif;
+}
+
+
+a {
+  color: #707070;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #e6e6e6;
+  text-decoration: underline;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+   font-family: 'Oswald', sans-serif;
+}
+
+
+.btn-primary {
+  color: #000000;
+  background: rgb(250,168,168);
+background: linear-gradient(90deg, rgba(250,168,168,1) 0%, rgba(249,205,205,1) 45%, rgba(253,241,241,1) 100%); 
+}
+
+.btn-primary:hover {
+  color: #000000;
+  background: rgb(201,157,157);
+background: linear-gradient(90deg, rgba(201,157,157,1) 0%, rgba(224,192,188,1) 45%, rgba(211,200,200,1) 100%); 
+
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #000000;
+   background: rgb(232,153,205);
+background: linear-gradient(90deg, rgba(232,153,205,1) 0%, rgba(253,166,216,1) 45%, rgba(227,82,188,1) 100%); 
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+
+.btn-secondary {
+  color: #000000;
+ background: rgb(238,230,73);
+background: linear-gradient(90deg, rgba(238,230,73,1) 0%, rgba(247,243,158,1) 45%, rgba(254,249,218,1) 100%); 
+}
+
+.btn-secondary:hover {
+  color: #000000;
+  background: rgb(195,190,136);
+background: linear-gradient(90deg, rgba(195,190,136,1) 0%, rgba(208,203,165,1) 45%, rgba(168,164,146,1) 100%); 
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #000000;
+   background: rgb(255,239,59);
+background: linear-gradient(90deg, rgba(255,239,59,1) 0%, rgba(248,235,78,1) 45%, rgba(252,207,16,1) 100%); 
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+
+.nav-link {
+  color: #272d2d;
+}
+
+.active {
+  color: #7b1fcc;
+}
+
+.navbar {
+  background-color: #f3b8b8;
+}
+
+.features {
+    padding:2rem;
+    margin-bottom:3rem;
+ background-color:#f9dbdb
+}
+.features-text{
+     padding:4rem;
+ background-color:  #f8f3ae;
+}
+.features-img{
+     padding:1rem;
+     background-color:  #f8f3ae;
+}
+/* 
+.img-thumbnail {
+  width: 120px;
+} */
+
+.cta {
+     padding:2rem;
+    margin-bottom:3rem;
+ background-color:  #d5c4e2;
+}
+.cta-text{
+    text-align: center;
+   padding: 3rem;
+     background-color:#968066;
+}
+.cta-promo1{
+      padding: 1rem;
+      margin:2rem;
+      text-align: center;
+     background-color:#fdfcf5;
+     border-radius: 1rem;
+}
+.cta-promo2{
+     padding: 1rem;
+      margin:2rem;
+      text-align: center;
+     background-color:#fdfcf5;
+      border-radius: 1rem;
+}
+/*150 X 260 */
+.team{
+     padding:2rem;
+    margin-bottom:3rem;
+    background-color: #502d00;
+}
+
+.card{
+      border-radius: 1rem;
+}
+
+.testimonial{
+     padding:2rem;
+    margin-bottom:3rem;
+      background-color: #f8f3ae;
+}
+.test{
+    margin:.5rem;
+    padding:1rem;
+     background-color: #fdf1f1;
+       border-radius: 1rem;
+}
+.footer{
+     padding:2rem;
+    margin-bottom:3rem;
+  color: #000000;
+  background-color:#bda585;
+}
+
+.logo{
+     width:300px;
+    height:40px;
+}
+
+.products-img{
+    text-align: center;
+     padding:1rem;
+    margin:2rem;
+      background-color: #f8f3ae;
+}
+.products-sidebar{
+     padding:2rem;
+    margin-bottom:3rem;
+      background-color: #b89dcf;
+}
+.categories{
+      background-color: #ffffff;
+}
+
+.about{
+     padding:2rem;
+    margin-bottom:3rem;
+      background-color: #d5c4e2;
+}
+
+.about-goals{
+    height:25rem;
+      background-color: #f9f8e2;
+     justify-content: center;
+      padding:1rem;
+}
+
+.contact{
+     padding:2rem;
+    margin-bottom:3rem;
+    background-color: #85c6f6;
+}
+.order{
+     background-color: #85c6f6;
+}
+
+.cart{
+ padding:2rem;
+    margin-bottom:3rem;
+   background-color: #b89dcf;
+}
+
+.billing{
+
+ margin-left:3rem;;
+}
+
+.payment{
+  margin-right:3rem;
+  
+}
